@@ -1,0 +1,14 @@
+// script.js
+
+// Example JavaScript code for handling form submission
+const form = document.querySelector('#login-form');
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+
+  // Perform form validation and submission logic
+  // ...
+
+  // Clear form inputs
+  form.reset();
+});
